@@ -26,4 +26,55 @@ client.user.setPresence({
 
 
 
+
+var bot = new Discord.Client();
+
+bot.on("ready", function() {
+   console.log("Ready");   
+});
+
+bot.on("message", function(message) {
+    if (message.author.equals(bot.user)) return;
+
+
+       if(message.content ===("باك")){
+          message.channel.send('وِلْكُمْ يْا عَسَلْ');
+          }
+           if(message.content ===("برب")){
+          message.channel.send('تِيْت يْا عَسَل');
+             }
+              if(message.content ===("عماد")){
+                 message.channel.send('امر يا عيوني ؟');
+                    }
+              if(message.content ===("قناتك")){
+                 message.channel.send('https://www.youtube.com/channel/UCvyErysTMO68eyLit_XYQhQ?sub_confirmation=1');
+                                     }
+              if(message.content ===("السلام عليكم")){
+                 message.channel.send('وعليكم السلام نورت ♥');
+
+                                           }
+              if(message.content ===("هلا")){
+                 message.channel.send('هلا فيك');
+
+                                                    }
+              if(message.content ===("ممكن طلب")){
+                 message.channel.send('اطلب من عيوني ♥');
+
+              if(message.content ===("كل زق")){
+                 message.channel.send('كُلْ زَقْيِن يْا حَيْوَانْ');
+              }
+              if(message.content ===("كلزق")){
+                 message.channel.send('كُلْ زَقْيِن يْا حَيْوَانْ');
+              }
+              
+              
+           
+         } 
+
+    });
+
+
+
+
+
 client.login("NDYwMTI1MDAzNzc4ODgzNTg1.DmDSww.kGnSt3WOzbqqCycxXRjoAr9InnE");
