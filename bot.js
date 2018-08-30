@@ -25,4 +25,4 @@ client.user.setPresence({
 
 
 
-client.login("NDYwMTI1MDAzNzc4ODgzNTg1.DmDSww.kGnSt3WOzbqqCycxXRjoAr9InnE");
+client.login(""NDYwMTI1MDAzNzc4ODgzNTg1.DmnmRw.KXhxu89tnhUaeCzNNP2SAIblqtQ"");
